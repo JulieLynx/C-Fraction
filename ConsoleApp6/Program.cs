@@ -50,7 +50,7 @@ namespace ConsoleApp5
 			Console.WriteLine(++a);
 #endif
 			int n = 5;
-			//while ((bool)n--) Console.WriteLine("Hello");
+			while (Convert.ToBoolean(n--)) Console.WriteLine("Hello");
 		}
 	}
 }
